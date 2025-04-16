@@ -69,7 +69,7 @@
           <mxGeometry y="60" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="0EwmHbK1_g-h2IZMiYUe-42" value="Play" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="320" y="1169" width="280" height="86" as="geometry" />
+          <mxGeometry x="280" y="1169" width="280" height="86" as="geometry" />
         </mxCell>
         <mxCell id="0EwmHbK1_g-h2IZMiYUe-44" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;labelBackgroundColor=none;" parent="0EwmHbK1_g-h2IZMiYUe-42" vertex="1">
           <mxGeometry y="26" width="280" height="8" as="geometry" />
@@ -684,7 +684,7 @@
             <Array as="points">
               <mxPoint y="833" />
               <mxPoint y="1120" />
-              <mxPoint x="340" y="1120" />
+              <mxPoint x="298" y="1120" />
             </Array>
           </mxGeometry>
         </mxCell>
