@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.13">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2895" dy="1081" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1516" dy="360" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -138,16 +138,16 @@
           <mxGeometry y="98" width="230" height="92" as="geometry" />
         </mxCell>
         <mxCell id="0EwmHbK1_g-h2IZMiYUe-79" value="LaserBeam" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="850" y="410" width="270" height="210" as="geometry" />
+          <mxGeometry x="850" y="410" width="280" height="210" as="geometry" />
         </mxCell>
         <mxCell id="0EwmHbK1_g-h2IZMiYUe-80" value="&lt;div&gt;- __width_laser : int&lt;/div&gt;&lt;div&gt;- __laser_color : tuple[int]&lt;/div&gt;&lt;div&gt;- __glow_color : tuple[int]&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="0EwmHbK1_g-h2IZMiYUe-79" vertex="1">
-          <mxGeometry y="26" width="270" height="54" as="geometry" />
+          <mxGeometry y="26" width="280" height="54" as="geometry" />
         </mxCell>
         <mxCell id="0EwmHbK1_g-h2IZMiYUe-81" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;labelBackgroundColor=none;" parent="0EwmHbK1_g-h2IZMiYUe-79" vertex="1">
-          <mxGeometry y="80" width="270" height="8" as="geometry" />
+          <mxGeometry y="80" width="280" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="0EwmHbK1_g-h2IZMiYUe-82" value="&lt;div&gt;- __create_laser_segments(start.pos : vector2[float], direction : vector2[float], beams : pygame.sprite.Group) : void&lt;/div&gt;&lt;div&gt;- __create_laser_surface(length:float) : pygame.Surface&lt;/div&gt;&lt;div&gt;- __draw_hit_effect(radius:int) : pygame.Surface&lt;/div&gt;&lt;div&gt;+ create_hit_effect(laser:&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 0, 0));&quot;&gt;ProjectileAbility&lt;/font&gt;, , ability_projectiles:pygame.sprite.Group) : void&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="0EwmHbK1_g-h2IZMiYUe-79" vertex="1">
-          <mxGeometry y="88" width="270" height="122" as="geometry" />
+        <mxCell id="0EwmHbK1_g-h2IZMiYUe-82" value="&lt;div&gt;- __create_laser_segments(start.pos : vector2[float], direction : vector2[float], beams : pygame.sprite.Group) : void&lt;/div&gt;&lt;div&gt;- __create_laser_surface(length : float) : pygame.Surface&lt;/div&gt;&lt;div&gt;- __draw_hit_effect(radius : int) : pygame.Surface&lt;/div&gt;&lt;div&gt;+ create_hit_effect(laser :&amp;nbsp;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 0, 0));&quot;&gt;ProjectileAbility&lt;/font&gt;, , ability_projectiles : pygame.sprite.Group) : void&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="0EwmHbK1_g-h2IZMiYUe-79" vertex="1">
+          <mxGeometry y="88" width="280" height="122" as="geometry" />
         </mxCell>
         <mxCell id="0EwmHbK1_g-h2IZMiYUe-83" value="CriticalShot" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1170" y="440" width="230" height="80" as="geometry" />
@@ -159,16 +159,16 @@
           <mxGeometry y="34" width="230" height="46" as="geometry" />
         </mxCell>
         <mxCell id="0EwmHbK1_g-h2IZMiYUe-87" value="AbstractProjectile" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;dashed=1;dashPattern=8 8;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1276" y="870" width="330" height="86" as="geometry" />
+          <mxGeometry x="1276" y="870" width="330" height="114" as="geometry" />
         </mxCell>
-        <mxCell id="0EwmHbK1_g-h2IZMiYUe-88" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="0EwmHbK1_g-h2IZMiYUe-87" vertex="1">
-          <mxGeometry y="26" width="330" height="26" as="geometry" />
+        <mxCell id="0EwmHbK1_g-h2IZMiYUe-88" value="# _position :&amp;nbsp;&lt;div&gt;# _velocity : pygame.Vector2[int]&lt;/div&gt;&lt;div&gt;# _damage : int&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="0EwmHbK1_g-h2IZMiYUe-87" vertex="1">
+          <mxGeometry y="26" width="330" height="54" as="geometry" />
         </mxCell>
         <mxCell id="0EwmHbK1_g-h2IZMiYUe-89" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;labelBackgroundColor=none;dashed=1;dashPattern=8 8;" parent="0EwmHbK1_g-h2IZMiYUe-87" vertex="1">
-          <mxGeometry y="52" width="330" height="8" as="geometry" />
+          <mxGeometry y="80" width="330" height="8" as="geometry" />
         </mxCell>
         <mxCell id="0EwmHbK1_g-h2IZMiYUe-90" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="0EwmHbK1_g-h2IZMiYUe-87" vertex="1">
-          <mxGeometry y="60" width="330" height="26" as="geometry" />
+          <mxGeometry y="88" width="330" height="26" as="geometry" />
         </mxCell>
         <mxCell id="0EwmHbK1_g-h2IZMiYUe-91" value="BombProjectile" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="900" y="990" width="160" height="86" as="geometry" />
@@ -290,7 +290,7 @@
         <mxCell id="0EwmHbK1_g-h2IZMiYUe-131" value="WavyEnemy" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-240" y="719.9999999999998" width="160" height="124" as="geometry" />
         </mxCell>
-        <mxCell id="0EwmHbK1_g-h2IZMiYUe-132" value="+ field: type&lt;div&gt;- __timer : int&lt;/div&gt;&lt;div&gt;- __amplitude : int&lt;/div&gt;&lt;div&gt;- __angular_frequency : int&lt;/div&gt;&lt;div&gt;- __projectile_generator : ProjectileGenerator&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="0EwmHbK1_g-h2IZMiYUe-131" vertex="1">
+        <mxCell id="0EwmHbK1_g-h2IZMiYUe-132" value="+ field: type&lt;div&gt;- __timer : int&lt;/div&gt;&lt;div&gt;- __amplitude : int&lt;/div&gt;&lt;div&gt;- __angular_frequency : int&lt;/div&gt;&lt;div&gt;- __projectile_generator : &lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 0, 0));&quot;&gt;ProjectileGenerator&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="0EwmHbK1_g-h2IZMiYUe-131" vertex="1">
           <mxGeometry y="26" width="160" height="90" as="geometry" />
         </mxCell>
         <mxCell id="0EwmHbK1_g-h2IZMiYUe-133" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;labelBackgroundColor=none;" parent="0EwmHbK1_g-h2IZMiYUe-131" vertex="1">
@@ -299,23 +299,23 @@
         <mxCell id="0EwmHbK1_g-h2IZMiYUe-135" value="LinearEnemy" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-240" y="869.9999999999998" width="160" height="76" as="geometry" />
         </mxCell>
-        <mxCell id="0EwmHbK1_g-h2IZMiYUe-136" value="- __projectile_generator : ProjectileGenerator" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="0EwmHbK1_g-h2IZMiYUe-135" vertex="1">
+        <mxCell id="0EwmHbK1_g-h2IZMiYUe-136" value="- __projectile_generator : &lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 0, 0));&quot;&gt;ProjectileGenerator&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="0EwmHbK1_g-h2IZMiYUe-135" vertex="1">
           <mxGeometry y="26" width="160" height="42" as="geometry" />
         </mxCell>
         <mxCell id="0EwmHbK1_g-h2IZMiYUe-137" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;labelBackgroundColor=none;" parent="0EwmHbK1_g-h2IZMiYUe-135" vertex="1">
           <mxGeometry y="68" width="160" height="8" as="geometry" />
         </mxCell>
         <mxCell id="0EwmHbK1_g-h2IZMiYUe-139" value="AbstractEnemy" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;dashed=1;dashPattern=8 8;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-668" y="716" width="340" height="262" as="geometry" />
+          <mxGeometry x="-668" y="716" width="360" height="250" as="geometry" />
         </mxCell>
         <mxCell id="0EwmHbK1_g-h2IZMiYUe-140" value="&lt;div&gt;# _speed : int&lt;br&gt;&lt;div&gt;# _health_points : int&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="0EwmHbK1_g-h2IZMiYUe-139" vertex="1">
-          <mxGeometry y="26" width="340" height="44" as="geometry" />
+          <mxGeometry y="26" width="360" height="44" as="geometry" />
         </mxCell>
         <mxCell id="0EwmHbK1_g-h2IZMiYUe-141" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;labelBackgroundColor=none;" parent="0EwmHbK1_g-h2IZMiYUe-139" vertex="1">
-          <mxGeometry y="70" width="340" height="8" as="geometry" />
+          <mxGeometry y="70" width="360" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="0EwmHbK1_g-h2IZMiYUe-142" value="+ method(type): type&lt;div&gt;+ update(dt: float, player_projectiles:pygame.sprite.Group, ability_projectiles:&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;pygame.sprite.Group, enemy_projectiles:&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;pygame.sprite.Group, player:&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;pygame.sprite.GroupSingle&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;, terrain:&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 0, 0));&quot;&gt;Terrain&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;, speed_multiplier:float&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;) : void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;# _move(dt:float, terrain:&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 0, 0));&quot;&gt;Terrain&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;) : void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;# _compute_damage(player_projectiles:pygame.sprite.Group, ability_projectiles:&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;pygame.sprite.Group&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;) : void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;# _attack(dt:float, target:vector2[float], projectiles:&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;pygame.sprite.Group&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;) : void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ health() : int&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="0EwmHbK1_g-h2IZMiYUe-139" vertex="1">
-          <mxGeometry y="78" width="340" height="184" as="geometry" />
+        <mxCell id="0EwmHbK1_g-h2IZMiYUe-142" value="+ method(type): type&lt;div&gt;+ update(dt : float, player_projectiles : pygame.sprite.Group, ability_projectiles :&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;pygame.sprite.Group, enemy_projectiles :&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;pygame.sprite.Group, player :&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;pygame.sprite.GroupSingle&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;, terrain :&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 0, 0));&quot;&gt;Terrain&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;, speed_multiplier : float&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;) : void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;# _move(dt : float, terrain :&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 0, 0));&quot;&gt;Terrain&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;) : void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;# _compute_damage(player_projectiles : pygame.sprite.Group, ability_projectiles :&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;pygame.sprite.Group&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;) : void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;# _attack(dt : float, target : vector2[float], projectiles :&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;pygame.sprite.Group&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;) : void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ health() : int&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="0EwmHbK1_g-h2IZMiYUe-139" vertex="1">
+          <mxGeometry y="78" width="360" height="172" as="geometry" />
         </mxCell>
         <mxCell id="0EwmHbK1_g-h2IZMiYUe-144" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;labelBackgroundColor=none;fontColor=default;fillColor=#1ba1e2;strokeColor=#006EAF;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="0EwmHbK1_g-h2IZMiYUe-50" target="0EwmHbK1_g-h2IZMiYUe-25" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -371,7 +371,7 @@
             <mxPoint x="1130" y="430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="h-SIncH39Dyfa8a2vWrz-14" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.003;exitY=-0.034;exitDx=0;exitDy=0;fillColor=#1ba1e2;strokeColor=#006EAF;entryX=0.992;entryY=0.563;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="0EwmHbK1_g-h2IZMiYUe-136" edge="1" target="0EwmHbK1_g-h2IZMiYUe-142">
+        <mxCell id="h-SIncH39Dyfa8a2vWrz-14" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.003;exitY=-0.034;exitDx=0;exitDy=0;fillColor=#1ba1e2;strokeColor=#006EAF;entryX=1.001;entryY=0.542;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="0EwmHbK1_g-h2IZMiYUe-136" edge="1" target="0EwmHbK1_g-h2IZMiYUe-142">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="-842" y="929.9999999999998" as="sourcePoint" />
             <mxPoint x="-350" y="837" as="targetPoint" />
@@ -384,7 +384,7 @@
             <mxPoint x="150" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="h-SIncH39Dyfa8a2vWrz-15" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;fillColor=#1ba1e2;strokeColor=#006EAF;entryX=0.994;entryY=0.047;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" target="0EwmHbK1_g-h2IZMiYUe-142" edge="1">
+        <mxCell id="h-SIncH39Dyfa8a2vWrz-15" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;fillColor=#1ba1e2;strokeColor=#006EAF;entryX=0.999;entryY=0.03;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" target="0EwmHbK1_g-h2IZMiYUe-142" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="-240" y="800" as="sourcePoint" />
             <mxPoint x="-425" y="879.9999999999998" as="targetPoint" />
@@ -396,7 +396,7 @@
             <mxPoint x="300" y="416.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="h-SIncH39Dyfa8a2vWrz-19" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fillColor=#1ba1e2;strokeColor=#006EAF;entryX=0.803;entryY=1.001;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="0EwmHbK1_g-h2IZMiYUe-128" target="0EwmHbK1_g-h2IZMiYUe-142" edge="1">
+        <mxCell id="h-SIncH39Dyfa8a2vWrz-19" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fillColor=#1ba1e2;strokeColor=#006EAF;entryX=0.75;entryY=1.012;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="0EwmHbK1_g-h2IZMiYUe-128" target="0EwmHbK1_g-h2IZMiYUe-142" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="-240" y="1090" as="sourcePoint" />
             <mxPoint x="-397" y="937" as="targetPoint" />
@@ -412,7 +412,7 @@
             <mxPoint x="530" y="410" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="h-SIncH39Dyfa8a2vWrz-20" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fillColor=#1ba1e2;strokeColor=#006EAF;entryX=0.557;entryY=1.011;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="0EwmHbK1_g-h2IZMiYUe-123" target="0EwmHbK1_g-h2IZMiYUe-142" edge="1">
+        <mxCell id="h-SIncH39Dyfa8a2vWrz-20" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fillColor=#1ba1e2;strokeColor=#006EAF;entryX=0.521;entryY=1.008;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="0EwmHbK1_g-h2IZMiYUe-123" target="0EwmHbK1_g-h2IZMiYUe-142" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="-298" y="899.9999999999998" as="sourcePoint" />
             <mxPoint x="-570" y="840" as="targetPoint" />
@@ -435,7 +435,7 @@
             <mxPoint x="11" y="-2" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Jew1sx4pPpGKJ6Vumhpc-12" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="0EwmHbK1_g-h2IZMiYUe-75" target="0EwmHbK1_g-h2IZMiYUe-115" edge="1">
+        <mxCell id="Jew1sx4pPpGKJ6Vumhpc-12" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;exitX=0.479;exitY=0.999;exitDx=0;exitDy=0;exitPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="0EwmHbK1_g-h2IZMiYUe-78" target="0EwmHbK1_g-h2IZMiYUe-115" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="230" y="740" as="sourcePoint" />
             <mxPoint x="390" y="740" as="targetPoint" />
@@ -495,7 +495,7 @@
             <mxPoint x="-22" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Jew1sx4pPpGKJ6Vumhpc-19" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="0EwmHbK1_g-h2IZMiYUe-79" target="0EwmHbK1_g-h2IZMiYUe-99" edge="1">
+        <mxCell id="Jew1sx4pPpGKJ6Vumhpc-19" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.555;entryY=-0.009;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="0EwmHbK1_g-h2IZMiYUe-79" target="0EwmHbK1_g-h2IZMiYUe-99" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="830" y="760" as="sourcePoint" />
             <mxPoint x="990" y="760" as="targetPoint" />
